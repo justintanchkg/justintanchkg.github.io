@@ -157,7 +157,7 @@ document.getElementById("event_button").addEventListener("click", function(){
   else
   {
 
-  	// TODO ADD CODE HERE
+  	dataLayer.push({'event': eventName});
 
   }
 });
