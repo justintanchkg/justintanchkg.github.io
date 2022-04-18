@@ -149,7 +149,7 @@ document.getElementById("event_button").addEventListener("click", function(){
   eventName = document.getElementById("event_name").value;
   eventProperties = document.getElementById("properties").value;
   dataLayer.push({'event': eventName});
-  console.log ("event attempted submission");
+  console.log("event attempted submission");
   if(eventProperties === "")
   {
 
