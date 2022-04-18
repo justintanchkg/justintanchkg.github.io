@@ -148,7 +148,7 @@ document.getElementById("attribute_button").addEventListener("click", function()
 document.getElementById("event_button").addEventListener("click", function(){
   eventName = document.getElementById("event_name").value;
   eventProperties = document.getElementById("properties").value;
-  dataLayer.push({'event': eventName});
+  dataLayer.push({'brazeEvent': eventName});
   console.log("event attempted submission");
   if(eventProperties === "")
   {
