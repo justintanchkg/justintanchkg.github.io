@@ -139,7 +139,10 @@ document.getElementById("phone_number_button").addEventListener("click", functio
 document.getElementById("attribute_button").addEventListener("click", function(){
   attributeName = document.getElementById("attribute_name").value;
   attributeValue = document.getElementById("attribute_value").value;
-  dataLayer.push({'brazeAttributeName': attributeName});
+  dataLayer.push({
+    'brazeAttributeName': attributeName,
+    'brazeAttributeValue': attributeValue,
+  });
   console.log("attribute logging attempted");
   // TODO ADD CODE HERE
 
