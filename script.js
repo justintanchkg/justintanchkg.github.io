@@ -141,7 +141,7 @@ document.getElementById("attribute_button").addEventListener("click", function()
   attributeValue = document.getElementById("attribute_value").value;
   dataLayer.push({
     'brazeAttributeName': attributeName,
-    'brazeAttributeValue': attributeValue,
+    'brazeAttributeValue': attributeValue
   });
   console.log("attribute logging attempted");
   // TODO ADD CODE HERE
