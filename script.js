@@ -217,18 +217,6 @@ function customE()
   }
 }
 
-function purchases()
-{
-  var x = document.getElementById(“purchases”);
-  if (x.style.display === “none”)
-  {
-    x.style.display = “block”;
-  }
-  else
-  {
-    x.style.display = “none”;
-  }
-}
 
 
 //TESTING
